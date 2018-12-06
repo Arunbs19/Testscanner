@@ -1,4 +1,4 @@
-package com.example.admin.testscanner;
+package com.example.admin.testscanner.Activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.admin.testscanner.Adapter.ViewPagerAdapter;
+import com.example.admin.testscanner.R;
 import com.example.admin.testscanner.model.viewpagermodel;
 import com.example.admin.testscanner.utility.ExpandingViewPagerTransformer;
 
@@ -86,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
         try {
             actionbar = getSupportActionBar();
             actionbar.setDisplayHomeAsUpEnabled(true);
-
             txttitlebar =new  TextView(this);
             layoutparams =new  ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             txttitlebar.setLayoutParams(layoutparams);
@@ -99,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
             actionbar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
             actionbar.setCustomView(txttitlebar);
         } catch (Exception ex) {
-
             Log.e("Main actionbarinit", ex.getMessage().toString());
         }
 

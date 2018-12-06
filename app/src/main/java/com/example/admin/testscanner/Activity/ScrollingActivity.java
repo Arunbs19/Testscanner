@@ -1,4 +1,4 @@
-package com.example.admin.testscanner;
+package com.example.admin.testscanner.Activity;
 
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -9,6 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.admin.testscanner.R;
 import com.example.admin.testscanner.model.viewpagermodel;
 
 import com.bumptech.glide.Glide;

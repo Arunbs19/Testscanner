@@ -2,7 +2,6 @@ package com.example.admin.testscanner.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -12,12 +11,12 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.admin.testscanner.R;
-import com.example.admin.testscanner.ScrollingActivity;
+import com.example.admin.testscanner.Activity.ScrollingActivity;
 import com.example.admin.testscanner.model.viewpagermodel;
 
 import java.util.ArrayList;
 
-import static com.example.admin.testscanner.ScrollingActivity.EXTRA_DATA;
+import static com.example.admin.testscanner.Activity.ScrollingActivity.EXTRA_DATA;
 
 
 public class ViewPagerAdapter extends PagerAdapter {
